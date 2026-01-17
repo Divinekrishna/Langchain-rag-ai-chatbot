@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "langchain-rag-ai-chatbot"
+version = "0.1.0"
+description = "Retrieval-Augmented Generation system with LangChain and Gemini AI"
+authors = [{name = "Krishna", email = "loshalikrishna120051@gmail.com"}]
+requires-python = ">=3.8"
+dependencies = [
+    "streamlit>=1.28.0",
+    "python-dotenv>=1.0.0",
+    "langchain>=0.2.0",
+    "langchain-google-genai>=0.0.10",
+    "google-generativeai>=0.3.0",
+    "langchain-community>=0.0.10",
+    "PyPDF2>=3.0.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/Divinekrishna/Langchain-rag-ai-chatbot"
+Repository = "https://github.com/Divinekrishna/Langchain-rag-ai-chatbot.git"
